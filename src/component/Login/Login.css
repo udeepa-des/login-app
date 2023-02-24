@@ -1,0 +1,78 @@
+.login {
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: #000000;
+    background-color: #e6e6e6;
+    margin: 200px auto 0 auto;
+    padding: 20px 20px 20px 20px;
+    font-family: "Roboto", Arial !important;
+    
+}
+
+.welcome {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Username {
+    margin: 0 0 30px 0;
+    padding: 5px 5px 5px 5px;
+    display:flex;
+  	justify-content: center;
+  	align-items: center;
+    padding-right: 130px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.password {
+    margin: 0 0 30px 0;
+    padding: 5px 5px 5px 5px;
+    display:flex;
+  	justify-content: center;
+  	align-items: center;
+    padding-right: 130px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.password:hover, .password:focus {
+    border: 1px solid #0077ff;
+}
+
+.Username:hover, .Username:focus {
+    border: 1px solid #0077ff;
+}
+
+.error {
+    color: orangered;
+}
+
+.loginBtn {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    outline: none;
+    padding: 10px 130px 10px 130px;
+}
+
+.loginBtn:hover,
+.loginBtn:focus {
+    background-color: #07c;
+}
+
+.loginBtn:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.loginBtn:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}
